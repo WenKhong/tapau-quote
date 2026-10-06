@@ -30,3 +30,6 @@ def test_negative_price_case():
 def test_zero_price_case():
     with pytest.raises(ValueError, match="Price cannot be zero."):
         landed_cost_myr(0, 10, 0.65, 0.2)
+
+def test_big_order():
+    assert landed_cost_myr(1000000, 10000, 0.65, 0.2) == 820625
