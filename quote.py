@@ -28,7 +28,7 @@ if __name__ == "__main__":
     parser.add_argument('price_cny', type=float, help='Price in CNY')
     parser.add_argument('shipping_cny', type=float, help='Shipping cost in CNY')
     parser.add_argument('fx_rate', type=float, help='Exchange rate from CNY to MYR')
-    parser.add_argument('margin_pct', type=float, help='Margin percentage (as a decimal, e.g., 0.2 for 20%%)')
+    parser.add_argument('margin_pct', type=float, help='Margin percentage (as a decimal or percentage, e.g., 0.2 for 20%%)')
 
     args = parser.parse_args()
 
