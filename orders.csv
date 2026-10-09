@@ -1,0 +1,4 @@
+item,price_cny,shipping_cny,fx_rate,margin_pct
+Sneakers,399,71,0.65,0.2
+Hoodie,189,71,0.65,0.2
+Cap,89,48,0.65,0.2
