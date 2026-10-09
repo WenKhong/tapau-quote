@@ -1,0 +1,3 @@
+item,price_cny,shipping_cny,fx_rate,margin_pct
+Tee,100,10,0.65,0.2
+Socks,100,10,0.65,0
